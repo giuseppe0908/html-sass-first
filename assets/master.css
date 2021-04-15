@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aqua;
+}
+
 h1 {
   color: blue;
 }
@@ -18,4 +25,5 @@ p {
 
 button {
   color: brown;
+  background-color: aqua;
 }

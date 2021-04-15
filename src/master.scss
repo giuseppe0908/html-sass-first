@@ -1,13 +1,19 @@
+$primary: green;
+$second: red;
+$pippo: blue;
+$pluto: brown;
+$acqua: aqua;
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-$primary: green;
-$second: red;
-$pippo: blue;
-$pluto: brown;
-
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $acqua;
+}
 h1{
   color: $pippo;
 }
@@ -19,4 +25,5 @@ p{
 }
 button{
   color: $pluto;
+  background-color: $acqua;
 }
