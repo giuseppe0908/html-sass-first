@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+$primary: green;
+$second: red;
+$pippo: blue;
+$pluto: brown;
+
+h1{
+  color: $pippo;
+}
+h2{
+  color:$second;
+}
+p{
+  color: $primary;
+}
+button{
+  color: $pluto;
+}
